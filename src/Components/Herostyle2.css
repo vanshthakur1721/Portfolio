@@ -1,0 +1,47 @@
+.hero-img1 {
+    width: 100%; /* Full width */
+    height: 80vh; /* Set height */
+    position: relative; /* Create a stacking context for child elements */
+    overflow: hidden; /* Prevent any overflow */
+}
+
+.hero-img1::before{  
+    content: "";    
+    background-size: cover;
+    background: url("https://plus.unsplash.com/premium_photo-1683140655656-20448abc55da?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2dyYW1taW5nfGVufDB8fDB8fHww");
+    object-fit: cover; /* Cover the container */
+    position: absolute; /* Position the pseudo-element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 6; /* Place behind the content */
+}
+
+.heading {
+    position: relative; /* Ensure it appears above the pseudo-element */
+    color: white; /* Text color for readability */
+    text-align: center;
+    z-index: 8; /* Place above the pseudo-element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack heading and description */
+    height: 100%; /* Take full height of the container */
+}
+
+.heading h1 {
+    font-size: 2.5rem; /* Adjust heading size */
+    margin: 0;
+}
+
+.heading p {
+    font-size: 1rem; /* Adjust description size */
+    margin-top: 0.5rem;
+}
+@media screen and (max-width:640px) {
+    .hero-img1{
+        font-size: 2rem;
+    }
+    
+}
