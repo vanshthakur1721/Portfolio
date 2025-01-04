@@ -39,7 +39,7 @@ I enjoy desinging new projects and taking challenges
     <Link to={"https://www.instagram.com/vansh_thakur_17/"} >
 <FaInstagram size={25} style={{color:"#fff",marginRight:"1rem"}}/>
 </Link>
-<Link>
+<Link to={"https://www.linkedin.com/in/vansh-thakur-1251bb23b/"}>
 <FaLinkedin size={25} style={{color:"#fff",marginRight:"1rem"}}/>
 </Link>
 <Link>

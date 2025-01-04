@@ -3,7 +3,7 @@ import './NavStyle.css'
 import { Link } from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 function NavBar() {
-    const [click, setClick] = useState(false)
+    const [click, setClick] = useState(true)
     const handleClick =()=>{
         setClick(!click)
     }
