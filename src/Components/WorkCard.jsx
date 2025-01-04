@@ -33,7 +33,7 @@ function WorkCard() {
                 I developed a replica of Sundown Studio using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll. This project focuses on creating a dynamic and visually engaging user experience by implementing smooth scrolling effects and  animations, . 
                 </p>
                 <div className='pro-btns'>
-                    <NavLink to='https://sundown-replica-lxxxsxhtc-vansh-thakurs-projects.vercel.app/' className="btn">View</NavLink>
+                    <NavLink to='https://sundown-replica-ten.vercel.app/' className="btn">View</NavLink>
                     <NavLink to='https://github.com/vanshthakur1721/Sundown-Replica' className="btn">Source</NavLink>
                 </div>
                 </div>
@@ -48,7 +48,7 @@ function WorkCard() {
                 I built a JavaScript-based bubble game where players match a changing number within 60 seconds to score. It tests quick reflexes and number recognition. The game features a dynamic displayer that updates every second, adding a challenge to maintain focus.  
                 </p>
                 <div className='pro-btns'>
-                    <NavLink to='https://buble-game-qedytsn53-vansh-thakurs-projects.vercel.app/' className="btn">View</NavLink>
+                    <NavLink to='https://buble-game-rho.vercel.app/' className="btn">View</NavLink>
                     <NavLink to='https://github.com/vanshthakur1721/BubleGame' className="btn">Source</NavLink>
                 </div>
                 </div>
