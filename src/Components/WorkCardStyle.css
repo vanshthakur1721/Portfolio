@@ -45,3 +45,10 @@
   }
     
 }
+.next{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 17vw;
+}

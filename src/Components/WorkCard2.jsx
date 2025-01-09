@@ -1,9 +1,9 @@
 import React from 'react'
 import './WorkCardStyle.css'
-import { NavLink } from 'react-router-dom'
+import {Link, NavLink } from 'react-router-dom'
 
 
-function WorkCard() {
+function WorkCard2() {
   return (
     <div className='Workcard'>
     <h1 className='Project-heading'>Projects</h1>
@@ -38,36 +38,16 @@ function WorkCard() {
                 </div>
                 </div>
 </div>            
-        <div className='project-card'>
-            <img src = "https://i.pinimg.com/736x/27/2e/ba/272ebab4071d9d6ef98858fc58dc4776.jpg"/>
-            <h2 className='project-title'>
-                SunDown Studio
-            </h2>
-            <div className='pro-details'>
-                <p>
-                I developed a replica of Sundown Studio using HTML, CSS, JavaScript, GSAP, and Locomotive Scroll. This project focuses on creating a dynamic and visually engaging user experience by implementing smooth scrolling effects and  animations, . 
-                </p>
-                <div className='pro-btns'>
-                    <NavLink to='https://sundown-replica-ten.vercel.app/' className="btn">View</NavLink>
-                    <NavLink to='https://github.com/vanshthakur1721/Sundown-Replica' className="btn">Source</NavLink>
-                </div>
-                </div>
-</div>        
-        <div className='project-card'>
-            <img src = "https://repository-images.githubusercontent.com/698360057/0f347832-366f-41a4-91d2-c15f3c32485e"/>
-            <h2 className='project-title'>
-                Buble Game
-            </h2>
-            <div className='pro-details'>
-                <p>
-                I built a JavaScript-based bubble game where players match a changing number within 60 seconds to score. It tests quick reflexes and number recognition. The game features a dynamic displayer that updates every second, adding a challenge to maintain focus.  
-                </p>
-                <div className='pro-btns'>
-                    <NavLink to='https://buble-game-rho.vercel.app/' className="btn">View</NavLink>
-                    <NavLink to='https://github.com/vanshthakur1721/BubleGame' className="btn">Source</NavLink>
-                </div>
-                </div>
-</div>        
+       
+       <div className='next' >  
+          <p>To see all my Projects click on the next button</p>
+          <Link to='/project'>
+          <button 
+            className='btn'>Next..</button></Link>
+          </div>
+          
+              
+            
                 
     </div>
 
@@ -78,4 +58,4 @@ function WorkCard() {
   )
 }
 
-export default WorkCard
+export default WorkCard2
