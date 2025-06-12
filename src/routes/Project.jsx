@@ -10,7 +10,7 @@ function Project() {
       <NavBar/>
       <Heroimg2 heading ="PROJECTS" text="Some of My most recent Work"/>
       <WorkCard/>
-      <Pricecard/>
+      {/* <Pricecard/> */}
       <Footer/>
     </div>
   )
